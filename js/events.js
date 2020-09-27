@@ -11,4 +11,3 @@ function getIt(){
 
 });
 
-getIt()

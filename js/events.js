@@ -12,7 +12,9 @@ function getIt(){
 }
 
 function pressIt() {
-  $("")
+  $("input").keydown("pressed", function(){
+    if key.pressed == ""
+  })
 }
   
 $(document).ready(function(){

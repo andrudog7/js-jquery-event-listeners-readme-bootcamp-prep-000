@@ -13,7 +13,7 @@ function getIt(){
 
 function pressIt() {
   $("input").keydown("pressed", function(key){
-    if key.pressed == ""
+    if (key.which === 18)
   })
 }
   

@@ -14,7 +14,7 @@ function getIt(){
 function pressIt() {
   $("input").keydown("pressed", function(key){
     if (key.which === 71) {
-      window.alert "You have pressed the G key."
+      window.alert("You have pressed the G key.");
     }
   })
 }
